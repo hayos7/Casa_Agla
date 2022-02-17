@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" target='_blank' href="../images/favicon.ico" type="image/x-icon">
+
+
+</head>
+
+<body>
+    <!-- Lo primerito -->
+
+    <div class="sub-sub-header">
+        <nav>
+            <a href="../index.html"><img src="../images/png_blanco_03.png" alt="Logo_png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="../index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="book_now.html">BOOK NOW</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            </class>
+            <div class="row-blog">
+                <div class="col-blog-1">
+                    <h1>Our Blog</h1>
+                    <p>Conoce mas acerca de nuestros diferentes <br>tratamientos, promociones, soluciones y cuidados para tu cuerpo junto a nosotros.</p>
+                        <a href="https://www.instagram.com/casa_agla/?hl=es-la" class="button-blog">Explore</a>
+                </div>
+                <div class="col-blog">
+                    <div class="card-blog card1">
+                        <h5>Belleza</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi repellat sint saepe ducimus sequi! Aliquam</p>
+                    </div>
+                    <div class="card-blog card2">
+                        <h5>Amor</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi repellat sint saepe ducimus sequi! Aliquam</p>
+                    </div>
+                    <div class="card-blog card3">
+                        <h5>Piel</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi repellat sint saepe ducimus sequi! Aliquam</p>
+                    </div>
+                    <div class="card-blog card4">
+                        <h5>Alma</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi repellat sint saepe ducimus sequi! Aliquam</p>
+                    </div>
+                    <div class="card-blog card5">
+                        <h5>Felicidad</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi repellat sint saepe ducimus sequi! Aliquam</p>
+                    </div>
+                    <div class="card-blog card6">
+                        <h5>Cuerpo</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi repellat sint saepe ducimus sequi! Aliquam</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer>
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto aliquam sed ad exercitationem laborum dolorem asperiores quibusdam, beatae,<br> blanditiis enim ab eveniet, quas reprehenderit ipsum nesciunt. Itaque, corrupti fugiat?</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> by Raúl Hayos </p>
+        </section>
+    </footer>
+
+
+
+    <!-- JavaScript toggle Menu Phone-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0"
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
