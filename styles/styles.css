@@ -10,7 +10,7 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../images/Banner.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../images/index_photos/banner_index.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -327,7 +327,7 @@ h3 {
 .cta {
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/Banner_02.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/index_photos/banner_index_02.jpeg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -365,10 +365,10 @@ h3 {
 
 /* Header */
 
-.sub-header {
+.sub-header-aboutus {
     height: 50vh;
     width: 100%;
-    background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(0, 0, 0, 0.75)), url(../images/banner_aboutus.jpeg);
+    background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(0, 0, 0, 0.75)), url(../images/aboutus_photos/banner_aboutus.jpeg);
     ;
     background-position: center;
     background-size: cover;
@@ -419,10 +419,10 @@ h3 {
 
 /* Blog HTML */
 
-.sub-sub-header {
+.sub-header-blog {
     min-height: 100vh;
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../images/blog_banner.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../images/blog_photos/banner_blog.jpg);
     background-position: center;
     background-size: cover;
     box-sizing: border-box;
@@ -487,27 +487,27 @@ h3 {
 }
 
 .card1 {
-    background-image: url(../images/blog_image_01.jpg);
+    background-image: url(../images/blog_photos/image_blog_01.jpg);
 }
 
 .card2 {
-    background-image: url(../images/blog_image_02.jpg);
+    background-image: url(../images/blog_photos/image_blog_02.jpg);
 }
 
 .card3 {
-    background-image: url(../images/blog_image_03.jpg);
+    background-image: url(../images/blog_photos/image_blog_03.jpg);
 }
 
 .card4 {
-    background-image: url(../images/blog_image_04.jpg);
+    background-image: url(../images/blog_photos/image_blog_04.jpg);
 }
 
 .card5 {
-    background-image: url(../images/blog_image_05.jpg);
+    background-image: url(../images/blog_photos/image_blog_05.jpg);
 }
 
 .card6 {
-    background-image: url(../images/blog_image_06.jpg);
+    background-image: url(../images/blog_photos/image_blog_06.jpg);
 }
 
 .card-blog h5 {
@@ -541,10 +541,10 @@ h3 {
 
 /* Services HTML */
 
-.sub-sub-sub-header {
+.sub-header-services {
     height: 50vh;
     width: 100%;
-    background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(0, 0, 0, 0.75)), url(../images/services_banner.jpg);
+    background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(0, 0, 0, 0.75)), url(../images/services_photos/banner_services.jpg);
     ;
     background-position: center;
     background-size: cover;
@@ -560,7 +560,17 @@ h3 {
 /* services content */
 
 
-
+/* Book now Header */
+.sub-header-booknow {
+    height: 50vh;
+    width: 100%;
+    background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(0, 0, 0, 0.75)), url(../images/bo);
+    ;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
 
 
 /* Footer */
