@@ -1,0 +1,25 @@
+{
+  "name": "proyecto_final---respaldo",
+  "version": "1.0.0",
+  "description": "‣Casa Agla",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss sass/sass.scss styles/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hayos7/Casa_Agla.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hayos7/Casa_Agla/issues"
+  },
+  "homepage": "https://github.com/hayos7/Casa_Agla#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
