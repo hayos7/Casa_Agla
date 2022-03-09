@@ -1,0 +1,50 @@
+.sub-header-aboutus {
+    height: 50vh;
+    width: 100%;
+    background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(0, 0, 0, 0.75)), url(../images/aboutus_photos/banner_aboutus.jpeg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+
+    h1 {
+        font-size: 40px;
+    }
+}
+
+/* body */
+
+.about-us {
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.about-col {
+    flex-basis: 48%;
+    padding: 30px 2px;
+
+    img {
+        width: 75%;
+        border-radius: 10px;
+    }
+
+    h2 {
+        padding-top: 0;
+    }
+
+    p {
+        padding: 15px 0 25px;
+    }
+}
+
+.red-btn {
+    border: 1px solid #f44336;
+    background: transparent;
+    color: #f44336;
+
+    &:hover {
+        color: #fff;
+    }
+}
