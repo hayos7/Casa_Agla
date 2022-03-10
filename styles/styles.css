@@ -1031,6 +1031,12 @@ h3 {
 .sub-header-services h1 {
   font-size: 40px; }
 
+.services h2 {
+  text-align: center; }
+
+.services p {
+  text-align: center; }
+
 /* services content */
 /* Book now Header */
 .sub-header-booknow {
@@ -1043,7 +1049,7 @@ h3 {
   color: #fff; }
 
 .sub-header-booknow h1 {
-  font-size: 40px; }
+  font-size: 20px; }
 
 .container {
   position: relative;
