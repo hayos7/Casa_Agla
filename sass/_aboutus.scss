@@ -1,3 +1,5 @@
+@import "mixincolors";
+
 .sub-header-aboutus {
     height: 50vh;
     width: 100%;
@@ -5,7 +7,7 @@
     background-position: center;
     background-size: cover;
     text-align: center;
-    color: #fff;
+    @include color-blanco;
 
     h1 {
         font-size: 40px;
@@ -45,6 +47,6 @@
     color: #f44336;
 
     &:hover {
-        color: #fff;
+        @include color-blanco;
     }
 }

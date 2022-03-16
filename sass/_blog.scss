@@ -1,4 +1,5 @@
 /* Blog HTML */
+@import "mixincolors";
 
 .sub-header-blog {
     min-height: 100vh;
@@ -25,12 +26,12 @@
 
 .col-blog-1 {
     h1 {
-        color: #fff;
+        @include color-blanco;
         font-size: 100px;
     }
 
     p {
-        color: #fff;
+        @include color-blanco;
         font-size: 11px;
         line-height: 15px;
     }
@@ -39,7 +40,7 @@
 .button-blog {
     display: inline-block;
     text-decoration: none;
-    color: #fff;
+    @include color-blanco;
     border: 1px solid #fff;
     padding: 12px 34px;
     font-size: 13px;
@@ -95,12 +96,12 @@
 
 .card-blog {
     h5 {
-        color: #fff;
+        @include color-blanco;
         text-shadow: 0 0 15px rgb(0, 0, 0);
     }
 
     p {
-        color: #fff;
+        @include color-blanco;
         text-shadow: 0 0 15px #000;
         font-size: 8px;
     }
