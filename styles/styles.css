@@ -352,6 +352,7 @@ h3 {
     bottom: 49%;
     opacity: 1; }
 
+/*Team*/
 .Team {
   width: 80%;
   margin: auto;
@@ -475,6 +476,8 @@ h3 {
 
 .services {
   text-align: center;
+  justify-content: center;
+  align-items: center;
   margin: 50px 0; }
 
 .container-services {
@@ -505,7 +508,8 @@ h3 {
 .container-services .swiper-slide .card-description {
   padding: 1rem 1rem; }
 
-.container-services .swiper-slide .card-title, .container .swiper-slide .card-text {
+.container-services .swiper-slide .card-title,
+.container .swiper-slide .card-text {
   margin-bottom: .5rem; }
 
 .container-services .swiper-slide .card-link {

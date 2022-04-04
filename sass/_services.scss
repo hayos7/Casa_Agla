@@ -15,22 +15,26 @@
     }
 }
 
-.services{
+.services {
     text-align: center;
+    justify-content: center;
+    align-items: center;
     margin: 50px 0;
 }
 
 
 .container-services {
     width: 90%;
-  
+
     padding: 10px 40px;
-  }
-  .container-services .swiper-container{
+}
+
+.container-services .swiper-container {
     width: 100%;
     height: 100%;
-  }
-  .container-services .swiper-slide {
+}
+
+.container-services .swiper-slide {
     position: relative;
     text-align: center;
     font-size: 18px;
@@ -38,34 +42,41 @@
     border-radius: 15px;
     text-align: start;
     box-shadow: 0px 4px 4px rgba(196, 196, 196, 0.25);
-   
-  }
-  .container-services .swiper-slide img{
-     display: block;
-      width: 100%;
-      height: 180px;
-      object-fit: cover;
-      border-top-left-radius: 15px;
-      border-top-right-radius: 15px;
-  
-  }
-  .container-services .swiper-slide .card-description{
-      padding:1rem 1rem;
-  }
-  .container-services .swiper-slide .card-title,.container .swiper-slide .card-text{
-     margin-bottom: .5rem;
-  }
-  .container-services .swiper-slide .card-link{
-     text-align: center;
-    
-  }
-  .container-services .swiper-slide .card-link a{
-      text-decoration: none;
-      color: #1d6ce2;
-  }
-  .swiper-button-next{
-      right: 26px !important;
-  }
-  .swiper-button-prev{
-      left: 26px !important;
-  }
+
+}
+
+.container-services .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.container-services .swiper-slide .card-description {
+    padding: 1rem 1rem;
+}
+
+.container-services .swiper-slide .card-title,
+.container .swiper-slide .card-text {
+    margin-bottom: .5rem;
+}
+
+.container-services .swiper-slide .card-link {
+    text-align: center;
+
+}
+
+.container-services .swiper-slide .card-link a {
+    text-decoration: none;
+    color: #1d6ce2;
+}
+
+.swiper-button-next {
+    right: 26px !important;
+}
+
+.swiper-button-prev {
+    left: 26px !important;
+}
