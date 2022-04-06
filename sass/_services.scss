@@ -1,6 +1,8 @@
 @import "mixincolors";
 
 
+
+
 .sub-header-services {
     height: 50vh;
     width: 100%;
@@ -24,14 +26,22 @@
 
 
 .container-services {
-    width: 90%;
-
-    padding: 10px 40px;
+    width: 100%;
+    padding: 10px 10px;
+    background: #eee;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    min-height: 100vh;
+    box-sizing: border-box;
 }
 
 .container-services .swiper-container {
     width: 100%;
     height: 100%;
+    justify-content: center;
 }
 
 .container-services .swiper-slide {
@@ -79,4 +89,8 @@
 
 .swiper-button-prev {
     left: 26px !important;
+}
+
+.swiper-container {
+    overflow: auto !important;
 }
